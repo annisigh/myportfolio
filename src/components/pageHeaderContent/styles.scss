@@ -1,0 +1,40 @@
+:root{
+    --yellow-theme-background-color: #1d1d1d;
+    --yellow-theme-main-color: #fc7233;
+    // --yellow-theme-main-color:#F4BF96;
+    --yellow-theme-sub-text-color: #ffffff;
+    --yellow-theme-background-color: #181818;
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        line-height: 1rem;
+        text-transform: capitalize;
+        color: var(--yellow-theme-main-color);
+        display: flex;
+        flex-grow: 1;
+    }
+    span{
+        svg{
+            color: var(--yellow-theme-main-color);
+        }
+    }
+}
+
+
+
+
+
+
+
